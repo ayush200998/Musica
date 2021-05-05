@@ -1,9 +1,12 @@
 import React from 'react'
 import {render} from 'react-dom'
+import HomeScreen from './HomeScreen'
 
 const App = () => {
     return(
-        <h1>Welcome to Musica</h1>
+        <div className='app_body'>
+            <HomeScreen />
+        </div>
     )
 }
 
