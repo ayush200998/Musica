@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import index
+from .views import GenerateMusic
 
 urlpatterns = [
-    path('', index, name='index')
+    path('', GenerateMusic.as_view(), name='Generate')
 ]
