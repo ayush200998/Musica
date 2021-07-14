@@ -29,7 +29,7 @@ const HomeScreen = () => {
 
             <div className='homescreen_body' align='center'>
                 <h1>Welcome to Musica</h1>
-                <h3>Wanna listen to music,Enjoy your own music</h3>
+                <h3> Click on generate to see the Sheet Music. </h3>
                 
                 <div className='homescreen_input' align='center'>
                     {loader ? (
